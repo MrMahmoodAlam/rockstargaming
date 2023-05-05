@@ -1,0 +1,275 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE CDN ICON -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    
+    <title>Rockstar - Clone</title>
+    <link rel="stylesheet" href="assets/stylesheet.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- NAVBAR STARTED -->
+    <div class="bg-black py-1" id="navbar-main-div">
+        <div><span class="material-symbols-outlined text-white text-4xl" id="menu-icon">menu</span></div>
+        <div class="nav-item2"><img src="./assets/rockstar_logo.jpg" alt="check internet" /></div>
+        <div class="nav-item3"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAQAAAAa7ikwAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cEDwoMNZ3nOfUAAAI2SURBVEjHrZS7SytREMZnjwsRZX2AVj6ItdiIaLRMrVkVsdBSrLUQtdUiBguxEQQfrQo2IvoHiLXWElJplY1gctJEs/PdYq5ukOSebHIPbLE73/y+M3NmD5FhgXt7gd1d8PMzuFiU5+kJ2NkB9/SY8v8Nx+wskM/je7HngT3v5x0fH0Ai0SA8kQB8HyiXwQcHQDQaxKJR4PBQ4r4Pnp4OCe/uBt7fJXlhobZucVFMcjmgqyuEwfa2tODoyKw9Phbt5mYIg8dHSRoeNmp5ZES0Dw8hDN7egFIJsCyzVinRvr5Wi6vqWaUSkVLymJZlESlF+Pys34AyGSLbJoyOmssdGyOybbLS6fpbxKur0terK3OLrq9Fu7JSvwHa28GZjPxcGxu1dVtbAk+ngba2ug2kiokJQGsB3NwA8TjYccCOA8TjwO2txLQGj4+Hggc7nJ8HmFFzMQNzcw2Ah4aAy0v5Syt5v+8iACiXgYuLyqvEAF9eBgoFSc5mgb09IBYDRyJB+yIRYHISSKUCw0IBWFoywNfXpWzfByeTYMcxn1VHB5BKSbXMwNpaDfj37ak1eGYmfFtdF1wsyuZ+5YP7+6XEKsGwJvB9YfX1VQROT+UQk8lG4cFm9/eFdXLy98PgoExCNltPz80GnZ1y8F9f4IEBRZbrErW0EJ2dWUrrZg0slc+TdX5OZNtErkvg+3sZs1isWfhPFZiaEubdHck9wlw5580btLbKyL68kIyl5/0veGCSywFa/wHiulIPrHYG9QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wNC0xNVQxMDoxMjo1MyswMDowMAAPKncAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDQtMTVUMTA6MTI6NTMrMDA6MDBxUpLLAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTA0LTE1VDEwOjEyOjUzKzAwOjAwJkezFAAAAABJRU5ErkJggg==" alt="check internet" class="bg-zinc-800 p-2 cursor-pointer"/></div>
+    </div>
+
+    
+
+    <!-- MENU SLIDING -->
+    <aside class="hide-menu" id="show-aside">
+        <div class="menu-sidebar">
+            <p class="py-2">
+                <span class="material-symbols-outlined cursor-pointer md:pt-5" id="menu-close-icon">close</span>
+            </p>
+            <div class="search-div">
+                <div class="px-2"><span class="material-symbols-outlined text-2xl">search</span>
+                </div>
+
+                <div>
+                    <input type="search" list="data" id="search-data" placeholder="Search Games" >
+                    <datalist id="data">
+                        <option value="Racing"></option>
+                        <option value="Action"></option>
+                        <option value="Adventure"></option>
+                        <option value="Horrer"></option>
+                    </datalist>
+                </div>
+
+            </div>
+
+            <ol type="none">
+                <li class="text-2xl mt-2">Newswire</li>
+                <li class="text-2xl mt-2">Games</li>
+                <li class="text-2xl mt-2">Videos</li>
+                <li class="text-2xl mt-2">Downloads</li>
+                <li class="social-link text-2xl mt-2">Support<span class="material-symbols-outlined text-sm ml-2">open_in_new</span></li>
+                <li class="social-link text-2xl mt-2">Social Club<span class="material-symbols-outlined text-sm ml-2">open_in_new<span><li>
+                <li class="social-link text-2xl mt-2">Launher<span class="material-symbols-outlined text-sm ml-2">open_in_new</span></li>
+                <li class="social-link text-2xl mt-2 mb-4">Store<span class="material-symbols-outlined text-sm ml-2">open_in_new</span></li>
+            </ol>
+
+        </div>
+    </aside>
+
+    <!-- MENU SLIDE END -->
+
+
+
+    <!-- LANDING SECTION STARTED -->
+    <div id="landing-main-div" class="bg-black px-1">
+
+        <div class="mx-1 md:ml-3"><img src="./assets/header.jpg" alt="landing image error"></div>
+
+        <div class="px-5 py-8 md:mr-3" id="landing-inner2">
+            <p class="text-white font-medium mb-3 md:my-3">Grand Theff Auto Online</p>
+            <h1 class="text-white text-3xl md:text-4xl font-bold overflow-hidden">Los Santos Drug Wars The Last Dose Out Now</h1>
+            <button class="text-white text-2xl font-medium py-5 my-10" value="Watch Now">WATCH NOW</button>
+
+            <div id="slide-button-div">
+                <input type="button" name="slide1" id="slide1" class="sliding1">
+                <input type="button" name="slide1" id="slide1">
+                <input type="button" name="slide1" id="slide1">
+                <input type="button" name="slide1" id="slide1">
+            </div>
+        </div>
+
+    </div>
+    <!-- LANDING SECTION END -->
+
+
+    <!-- NEWSWIRE SECTION STARTED -->
+    <div class="md:py-14" id="newswire-main-div">
+        <h1 class="text-white font-medium md:text-4xl md:pb-10">Newswire</h1>
+
+
+        <div class="text-white" id="newswire-inner-div">
+            <div class="bg-black" id="newswire-first-row">
+                <img  src="./assets/himage1.jpg" alt="game image error">
+                <div class="px-6 pb-8">
+                    <p class="mt-7 font-medium text-lg">GTA Online <span class="text-gray-400 ml-2">April 13, 2023</span></p>
+                    <h1 class="mt-2 font-medium text-2xl">The New Karin Boor:Free this Month with GTA+</h1>
+                </div>
+                
+            </div>
+            <div class="bg-black" id="newswire-first-row">
+                <img  src="./assets/himage2.jpg" alt="game image error">
+                <div class="px-6 pb-8">
+                    <p class="mt-7 font-medium text-lg">GTA Online <span class="text-gray-400 ml-2">April 13, 2023</span></p>
+                    <h1 class="mt-2 font-medium text-2xl">Venture Off-Road in the New Karin Boor</h1>
+                </div>
+                
+            </div>
+            <div class="bg-black" id="newswire-first-row">
+                <img  src="./assets/himage3.jpg" alt="game image error">
+                <div class="px-6 pb-8">
+                    <p class="mt-7 font-medium text-lg">Rockstars Games<span class="text-gray-400 ml-2">April 7, 2023</span></p>
+                    <h1 class="mt-2 font-medium text-2xl">CircoLoco Records Present ANYWAY, from the Giegling Collective-Available Now on Vinyl</h1>
+                </div>
+            </div>
+
+
+         
+            <div class="bg-black md:mt-8" id="newswire-first-row">
+                <img  src="./assets/himage4.jpg" alt="game image error">
+                <div class="px-6 pb-8">
+                    <p class="mt-7 font-medium text-lg">GTA Online <span class="text-gray-400 ml-2">April 6, 2023</span></p>
+                    <h1 class="mt-2 font-medium text-2xl">Capitalize on the Underground Arms Trade with Gunrunning Bonuses</h1>
+                </div>
+                
+            </div>
+            <div class="bg-black md:mt-8" id="newswire-first-row">
+                <img  src="./assets/himage5.jpg" alt="game image error">
+                <div class="px-6 pb-8">
+                    <p class="mt-7 font-medium text-lg">GTA Online <span class="text-gray-400 ml-2">April 4, 2023</span></p>
+                    <h1 class="mt-2 font-medium text-2xl">Uncover Tareasure in Red Dead Online Tto Reap Collection Bonuses and Rewards</h1>
+                </div>
+                
+            </div>
+            <div class="bg-black md:mt-8" id="newswire-first-row">
+                <img  src="./assets/himage6.jpg" alt="game image error">
+                <div class="px-6 pb-8">
+                    <p class="mt-7 font-medium text-lg">GTA Online <span class="text-gray-400 ml-2">March 30, 2023</span></p>
+                    <h1 class="mt-2 font-medium text-2xl">Bikers Rule the Road this Week as Business Booms</h1>
+                </div>
+            </div>
+
+        </div>
+        <h1 id="newswire-more-h1">
+            <button class="text-white font-medium text-xl" id="newswire-more-button">View More</button>
+        </h1>
+
+    </div>
+
+    
+
+
+    <!-- FEATURED GAME SECTION STARTED -->
+    <div id="featured-main" class="md:px-10">
+        <h1 class="text-white font-medium md:text-4xl md:pb-10">Featured Games</h1>
+
+        <div class="text-white" id="featured-inner-div">
+            <div>
+                <img  src="./assets/himage7.jpg" alt="game image error">
+            </div>
+            <div>
+                <img  src="./assets/himage8.jpg" alt="game image error">
+            </div>
+            <div>
+                <img  src="./assets/himage9.jpg" alt="game image error">
+            </div>
+            <div>
+                <img  src="./assets/himage7.jpg" alt="game image error">
+            </div>
+
+        </div>
+        <h1 id="featured-more-h1" class="pb-12">
+            <button class="text-white font-medium text-xl" id="featured-more-button">View More</button>
+        </h1>
+
+    </div>
+    <!-- FEATURED GAME SECTION END -->
+
+
+
+
+    <!-- FOOTER SECTION STARTED -->
+    <div class="bg-black md:px-20 md:py-20" id="footer-main-div">
+        
+        <!-- FOOTER FIRST ROW -->
+        <div id="footer-first">
+            <div>
+                <ul type="none" class="text-white">
+                    <li class="mr-5 text-xl" title="Footer">Contact</li>
+                    <li class="mr-5 text-xl" title="Footer">Careers</li>
+                    <li class="text-xl" title="Footer">Subscribe<span class="material-symbols-outlined text-sm ml-2">open_in_new</span></li>
+                </ul>
+            </div>
+
+            <div>
+                <img src="data:image/png;base64,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" alt="internet icon"/>
+                <select name="languages"  class="text-white text-xl bg-transparent" title="Footer">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="French">French</option>
+                </select>
+            </div>
+        </div>
+
+
+        <!-- FOOTER SECOND ROW --> 
+        <div id="footer-second" class="md:py-20">
+            <div id="footer2-1div">
+                <ul type="none" class="text-white">
+                    <li class="mr-5 text-sm text-gray-400 font-medium" title="Footer">Corporate</li>
+                    <li class="mr-5 text-sm text-gray-400 font-medium" title="Footer">Privacy</li>
+                    <li class="mr-5 text-sm text-gray-400 font-medium" title="Footer">Cookie Settings</li>
+                    <li class="mr-5 text-sm text-gray-400 font-medium" title="Footer">Cookie Privacy</li>
+                    <li class="mr-5 text-sm text-gray-400 font-medium" title="Footer">Legal</li>
+                    <li class="text-sm text-gray-400 font-medium" title="Footer">Do Not Sell My Personal Information</li>
+                </ul>
+            </div>
+
+            <div id="footer2-div">
+                <ul type="none">
+                    <li class="w-10 p-3 mr-3" title="Twitch"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cEFgQuLHmx4goAAAG+SURBVFjD7Zaxa8JAFMa/dzgUCsWWgLTQQaQIRdqhi9Kp3YOLZhIc+0dkcoiz6P/g4hRchIqTS4eC0FmQZqoglEIHLc3rkLb2alPtmZil35S7l7vv9+5eLge8i92rK960XF0XHwCgchkRKAYAzOk0kMvNu8djwHHCsdzfBw4OpC52q1V5bWq1sDJmNs2vWxBjFgIolcIyXCYBPj8HDg+jA0A8HpX5O0C0iqkMYrYs8NERAJAwDCnmJhJAo+G1+n0S9XrgAODLS1A2+2OMtreBYtFrvLwsmyryLfgH+AeIHEDtM6ReD+zzt+TnZ6DV8ho3N6EAEJmmb0w8PADy4fSbNroF7Grad7iNAbCraaBuFzg58XpmM5DjqNXAX815dxfodIDT009zGAbRYBD6Cnjm19fA2ZlsbtuAbxFubXkDv8/2+kri6WnRwM99ZwewbSlzLhRItNvzd1xdX/0efXcnm1vW6mOnU+Z8fhFSESAQc1WAwMxVABav8GuYe0X4+Ajc3vq/kkwCe3ve8/ExKJOR45MJMBr9nF2lIhWcipibTf8M7++ZU6l15l/jHHAc4OKCaDiMACAYc0WA4MwB4A31caDHuRmS0gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wNC0yMlQwNDo0Njo0NCswMDowMIJrME4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDQtMjJUMDQ6NDY6NDQrMDA6MDDzNojyAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTA0LTIyVDA0OjQ2OjQ0KzAwOjAwpCOpLQAAAABJRU5ErkJggg==" alt="social-icon"/></li>
+                    <li class="w-10 p-3 mr-3" title="Instagram"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cEFgQtLFKcsckAAAMySURBVFjDtVc9TzJBEJ49gxZKrZgIdsqHGn6CidpoEPQn0Bn1lwhC8KuxsbRXo6iVBZ0S/OiVr1bAhATc5y2GYzl84TB3TnLhdtmd55mZndk5oi4B/H5gfx94foas1WBVZK3GuuJxwOejXgI5PAykUkCzaRm0pzSbQDIJ6XDouEIHJ7q4ILG0pCiVSkSPj4SvL7IkY2MkgkGiiQllbTpNtLoqtEaj5fZUSrEsFIBwGNA0a8CdYdU0IBIBikWFk0h0xFx3e6EAOTVlF/DPMLvdikSjAXi9xAdOl3DYVkAsLkKenkLu7gJDQzwXiagDGosR8PKiXG+n26engXpdGbezo8JRKvFcLqcRud28I5sVQkr7zJ+ZIRoZURMLC0REjJHN8pzHoxGNjfGgVhtIr5ybA5LJdp3Q8xyJBGQg0F4oHh6I3t54UK8Tzs6UkkqFX5xOUvE4P+8PPDICHB0B39/98/zggNOaCBgdhVxZgWx5ua3r/FzfMRABBr+/N4IVi8DFBeTlpYqpruvuTifxf32/JYDjY6U9nwdCIUAI9b+mce0oFNS6VMoWAhxz3e35fL86ATk1pUg0m4Dfb0bAPO1ENEqkp+fWltA+Pnou1T4+iLa3eTQ0RIhGTfWbesBQJ5Tbe+sz5rl1DxjqBGDqsK48N1s/AIEWqDC3vpOGYa81AnrMFxYGKdW8Zn6eR+/vNhBIp/nX5SIKhczXRyLtux/63r6MzdIwEBj0ujZet81mrxbsV4dQaM/PRCcnPJqcJJHJ8JWqwsEnf2ODRCbDniIiOjwU4vXVsgeY8fAw5O2tsRSXSsDVFT/lsrEUp9OdfV8/D/ziMhqkaf3ZdNpGQHnM7+cWO5cDqlV+cjnIWKxv292bQKXCr1dXg2y2Q4Dra8b8/CRuJvTr1b6WrDd4d0uGmxv+y+UiWl//e/s768T1NQE+nzpYxWJ392Kr9dLjUdY3GsDsbMstyaSx0zHmuWVgaBqwuWnonGQ8TtT+NHM4+NNseVltK5eJnp4I1aoldOF0EgWDROPjavLmhrC21v4000kAiQS75q+k0YCMx/vWCcDn45zW89yq6HVibw/wervx/gH24UvxVH+r2wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wNC0yMlQwNDo0NTo0NCswMDowMGlci00AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDQtMjJUMDQ6NDU6NDQrMDA6MDAYATPxAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTA0LTIyVDA0OjQ1OjQ0KzAwOjAwTxQSLgAAAABJRU5ErkJggg==" alt="social-icon"/></li>
+                    <li class="w-10 p-3 mr-3" title="Twitter"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cEFgQtCRmYZY4AAAJ8SURBVFjD7Za9SzNBEMZnz5yK3XGSECwEtbEQG8Vg5QdWCYIKNkGIFoKmtBJSSvzAzj/BQhStbDQgCFpZ+BEQJVgoEiNYRBQP9Mw+Fpv4GvNecnuJvPDir9m7Y26fmdkZdoh++V8Ar64GpqeBgwMgnQYMAzg/BxYXAa+30L6jA6iqyr64XMDUlHPxlhYhZsXTEzA8DO7xAKEQ+N4esLb2ZwMMDQnDcFhe3O0Grq9RkkwG4Fw8p1K5rLjENj6fWFdWwDWNKXNztj1gCwtEjY2lDRVFrFdXRDMzhEAAPPsNWF3Nc5ZvbQGaVjJ6aBrw9lY6+q+8vgqNkxOgri6bxuXlQsNkEnxsDGDM2gG/X048x+EheH39l41GRqyN43FgfPzT2zwHQiF58bMzoLb2WyGpKnB7W/zHlxfwjQ0gHBYtpOvA4KC8Azs7FtU8MCAqVQbTlHdgczOvNEUqZ2eJPB6iSITINO03octl3zZHKpW3g1i8XmLRqPxmTkgkCjJAZHEuPwH29wu/QVGA01P585Qlmfze1goREWOcEwWDROn0z4YfizEGWGeHt7UVv1TKpbe3+PFA14HWVnGFPj5WVJsfH5euDzQ1OettO/j99oqULy1VXnx723aZiOFkfb1yqX94ABoapGoVYAyYnARubspTN02gv99x0wCKAt7VJe5uWd7fgWCwTPFAwFlbGgYwOiovymtqgO5u8EgE/OLCWdoTCfDOTolIe3qA3V0xSpeDYQDz838bXGxErqrAxISY6XOTq13u7sCjUelKz1Iw7wHNzYS+PiKfj1h7O5HbTaTrRKpK9PxMdH9PuLwkFo8TxWJER0eMZTKOi+2Xf80HbP5no1Ybk1YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDQtMjJUMDQ6NDU6MDgrMDA6MDAqtu/DAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA0LTIyVDA0OjQ1OjA4KzAwOjAwW+tXfwAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wNC0yMlQwNDo0NTowOCswMDowMAz+dqAAAAAASUVORK5CYII=" alt="social-icon"/></li>
+                    <li class="w-10 p-3 mr-3" title="Youtube"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+cEFgQsI9s4nRkAAAG8SURBVFjD7ZZBSwJBHMXfDKsoHjYIISE6RKdAiEC8eNMvUAchokMSBH2HQPCgnyVC8Cb4AfYiCC54kAgRurhBCYFiMq/DmiYlOG65Qf2Oy/7nvfn/HzMD/PPXEV99pIpGgVgMCAaBjQ1vEv0+xOsr+PAgpOMs/I0qkyFvb8lejz/G46OrkU7Pi7NY/DnRRRQKE/F0ev3iJKkUVSolgVzOp/gJiLMzCR4e+mMAAJJJCeE15V6IxSQQCukVWRZweQnW694NmCbI4VAvPNksAJBCkEdHpG2vHsTxGPpFx8cf90BKSZ6eku32KhY8G5gaUYZBdXFBdru+GJh1ZHNTZ6zy+5N9cODeIcvxbQbI/X2qmxugVgOEWLbO8Cys9vYg8nng5ARCam/IAEYjnZYBpukKb29DXF8D5+dAILCa/cEA5NOTVgaV45DlMjkY6Af481qCbDaBeNzrKFbDtiVg2/6ITw1UKr7ps1qdnGCNhud5atPpkOGwa4S7u2SrtT7xXo8qkZjvBiMR8uqKyrL0b8hlUIrq7o4slcitrXfdBc/yQABiZ8d9kpsmqH/AzHh+ds+a+3shX158y9s/v5Y3XG0e70y66pgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDQtMjJUMDQ6NDQ6MzUrMDA6MDAqLOLeAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA0LTIyVDA0OjQ0OjM1KzAwOjAwW3FaYgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wNC0yMlQwNDo0NDozNSswMDowMAxke70AAAAASUVORK5CYII=" alt="social-icon"/></li>
+                    <li class="w-10 p-3" title="Facebook"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAYAAAAj6qa3AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnBBYEKxrLfIPWAAACMUlEQVRo3u2WQUhUQRzGv/++BC9BQoKdveRBPCnEuokgdDLxVBcRIfGy0EGQxYNEHjxUF7slFSWkUoiXRSLcaLeTeliIMoLQg122dTsYys57M18HWQ/C4utt+7Zl57vM5Xv/me837z8zQI1EkqSI97p4m2Zw0CTcOLm8rJNunNzb03mVJY+PtVaKJPVX9YwsFPQnNU/m8/qpG6XZ2SHdAtnXV6scfx/c0NC0tppXaoFMpU4DBhy9D8VZcmgo6HoioQUnSTY3m4T7C5JM8hZGgf7+sOavOQDz0/sCTE5iDheB7u5aBw8NQKnX8Z3PgXi81oHP6kLVZ6B7F+zsRA8eQtra/H4mS3gCplI8kpeQ1VWOmTSYy531Odf1ImRrK2Ru/uV9Lr4hh4d9H25T6oDc3Dz9c6qsqreAPJIrQEuLb/8ixoCNDREREbLuAeAyroKO49fObZkBDg+rvq7QAPznangAgW+B0otOx3QM6Ooq55N3ZgXo6OAc7vipKwncBNvbvagXpRkYOM/vZJwMkE5LRCISUSo0cqUnaKVP2cDjkcqRnneyEU1NQXPUbwu8l/vA/v7Jzrtu4wFYYA+4u1tpmboFIJfkHqSBAXAeH4HKAQS+BZyYuQZms2bGAWRiopxPCnID6O3lY74FRkbOqysP5AWwtsbfHAXW18v5IrPmG5DJ/AuYVZWeUgc04+O+T/cf7jY5PR3W+uq2BSwAC8ACsAAsAAvAArAALAALwAKwACrRH4wKDGGagukOAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA0LTIyVDA0OjQzOjI2KzAwOjAwNbLjpAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wNC0yMlQwNDo0MzoyNiswMDowMETvWxgAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDQtMjJUMDQ6NDM6MjYrMDA6MDAT+nrHAAAAAElFTkSuQmCC" alt="social-icon"/></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!-- FOOTER LAST ROW -->
+        <div id="footer-last" class="md:pt-10">
+
+            <div class="text-white font-medium">
+                <p title="Footer">Rockstar Games</p>
+            </div>
+            <div>
+                <ul type="none" class="text-white font-medium">
+                    <li class="mr-5" title="Footer">New York</li>
+                    <li class="mr-5" title="Footer">London</li>
+                    <li class="mr-5" title="Footer">Paris</li>
+                    <li title="Footer">Bogotá</li>
+                </ul>
+            </div>
+
+            <div class="text-white font-medium">
+                <p title="Footer">MCMXCVIII</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- FOOTERE SECTION ENDED -->
+    
+
+</body>
+<script>
+    // MENU FUNCTION STARTED
+    let menu_icon = document.getElementById('menu-icon');
+    const show_menu = document.getElementById('show-aside');
+    const close_menu = document.getElementById('menu-close-icon');
+
+    menu_icon.addEventListener('click', ()=>{
+        show_menu.classList.replace('hide-menu', 'menu-slide-main')
+    });
+    close_menu.addEventListener('click', ()=>{
+        show_menu.classList.replace('menu-slide-main', 'hide-menu')
+    })
+    // MENU FUNCTION END
+</script>
+</html>
